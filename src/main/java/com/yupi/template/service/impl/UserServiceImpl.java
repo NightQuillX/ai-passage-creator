@@ -62,7 +62,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         User user = new User();
         user.setUserAccount(userAccount);
         user.setUserPassword(encryptPassword);
-        user.setUserName("无名");
+        user.setUserName("user_" + System.currentTimeMillis());
         user.setUserRole(UserRoleEnum.USER.getValue());
         user.setQuota(DEFAULT_QUOTA);
         boolean saveResult = this.save(user);

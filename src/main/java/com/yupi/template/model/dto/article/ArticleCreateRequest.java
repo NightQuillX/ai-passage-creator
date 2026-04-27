@@ -2,6 +2,7 @@ package com.yupi.template.model.dto.article;
 
 import lombok.Data;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.List;
 
@@ -29,5 +30,6 @@ public class ArticleCreateRequest implements Serializable {
      */
     private List<String> enabledImageMethods;
 
+    @Serial
     private static final long serialVersionUID = 1L;
 }

@@ -11,13 +11,13 @@ spring:
   # MySQL 数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ai_passage_creator
+    url: jdbc:mysql://192.168.100.128:3307/ai_passage_creator
     username: root
-    password: 123456
+    password: 123
   # Redis 配置
   data:
     redis:
-      host: localhost
+      host: 192.168.100.128
       port: 6379
       database: 0
       password:
