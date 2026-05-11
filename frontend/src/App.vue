@@ -17,18 +17,18 @@ provide('locale', zhCN)
 /* 引入 Google Fonts - Geometric Modern */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
 
-/* 全局CSS变量 - 清新绿色配色方案 */
+/* 全局CSS变量 - 靛蓝紫配色方案 */
 :root {
-  /* 品牌色 - 绿色系 */
-  --color-primary: #22C55E;
-  --color-primary-light: #4ADE80;
-  --color-primary-dark: #16A34A;
+  /* 品牌色 - 靛蓝紫系 */
+  --color-primary: #6366F1;
+  --color-primary-light: #818CF8;
+  --color-primary-dark: #4F46E5;
   --color-secondary: #0F172A;
   --color-secondary-light: #334155;
 
   /* 功能色 */
-  --color-cta: #22C55E;
-  --color-success: #22C55E;
+  --color-cta: #6366F1;
+  --color-success: #6366F1;
   --color-warning: #EAB308;
   --color-error: #EF4444;
   --color-info: #3B82F6;
@@ -45,16 +45,16 @@ provide('locale', zhCN)
   --color-border-light: #F1F5F9;
 
   /* 渐变 */
-  --gradient-primary: linear-gradient(135deg, #22C55E 0%, #16A34A 100%);
-  --gradient-hero: linear-gradient(180deg, #DCFCE7 0%, #FFFFFF 100%);
-  --gradient-hero-dark: linear-gradient(180deg, #166534 0%, #14532D 100%);
+  --gradient-primary: linear-gradient(135deg, #6366F1 0%, #4F46E5 100%);
+  --gradient-hero: linear-gradient(180deg, #EEF2FF 0%, #FFFFFF 100%);
+  --gradient-hero-dark: linear-gradient(180deg, #3730A3 0%, #1E1B4B 100%);
 
   /* 纯色背景 */
-  --bg-primary: #22C55E;
-  --bg-primary-hover: #16A34A;
+  --bg-primary: #6366F1;
+  --bg-primary-hover: #4F46E5;
   --bg-dark: #0F172A;
   --bg-dark-hover: #1E293B;
-  --bg-success: #22C55E;
+  --bg-success: #6366F1;
 
   /* 阴影 */
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -62,8 +62,8 @@ provide('locale', zhCN)
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
-  --shadow-card-hover: 0 8px 24px rgba(34, 197, 94, 0.15);
-  --shadow-green: 0 4px 14px rgba(34, 197, 94, 0.25);
+  --shadow-card-hover: 0 8px 24px rgba(99, 102, 241, 0.15);
+  --shadow-green: 0 4px 14px rgba(99, 102, 241, 0.25);
 
   /* 圆角 */
   --radius-sm: 6px;
@@ -80,7 +80,7 @@ provide('locale', zhCN)
 
   /* 毛玻璃 */
   --glass-bg: rgba(255, 255, 255, 0.9);
-  --glass-bg-green: rgba(220, 252, 231, 0.8);
+  --glass-bg-green: rgba(238, 242, 255, 0.8);
   --glass-blur: blur(12px);
 }
 
@@ -136,7 +136,7 @@ a:hover {
 .ant-btn-primary:not(:disabled):hover {
   background: var(--bg-primary-hover);
   border-color: var(--bg-primary-hover);
-  box-shadow: 0 6px 20px rgba(34, 197, 94, 0.35);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.35);
 }
 
 /* 全局卡片增强 */
@@ -157,7 +157,7 @@ button,
 
 /* 选中状态 */
 ::selection {
-  background: rgba(34, 197, 94, 0.2);
+  background: rgba(99, 102, 241, 0.2);
   color: var(--color-text);
 }
 
@@ -210,7 +210,7 @@ button,
 .ant-input-affix-wrapper:focus,
 .ant-input-affix-wrapper-focused {
   border-color: var(--color-primary) !important;
-  box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.1) !important;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1) !important;
 }
 
 .ant-input:hover {

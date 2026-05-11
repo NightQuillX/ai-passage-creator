@@ -8,8 +8,6 @@ import lombok.Getter;
  * 扩展新的图片来源时，只需添加新的枚举值并设置正确的属性：
  * - isAiGenerated: 是否为 AI 生图方式（决定使用 prompt 还是 keywords）
  * - isFallback: 是否为降级方案
- *
- * @author <a href="https://codefather.cn">编程导航学习圈</a>
  */
 @Getter
 public enum ImageMethodEnum {

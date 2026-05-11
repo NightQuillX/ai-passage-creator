@@ -21,8 +21,6 @@ import java.util.Map;
 /**
  * 标题生成 Agent
  * 根据选题生成 3-5 个爆款标题方案
- *
- * @author AI Passage Creator
  */
 @Component
 @Slf4j

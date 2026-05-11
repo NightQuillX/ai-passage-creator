@@ -5,8 +5,6 @@ import java.util.function.Consumer;
 /**
  * 流式输出处理器上下文
  * 使用 ThreadLocal 保存 streamHandler，避免将其放入 StateGraph 状态中（无法序列化）
- *
- * @author AI Passage Creator
  */
 public class StreamHandlerContext {
 

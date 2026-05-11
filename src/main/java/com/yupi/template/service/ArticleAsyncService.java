@@ -25,8 +25,6 @@ import java.util.Map;
  * 支持两种执行模式：
  * 1. 多智能体编排模式（通过 article.agent.orchestrator.enabled=true 启用）
  * 2. 原有模式（默认或 article.agent.orchestrator.enabled=false）
- *
- * @author <a href="https://codefather.cn">编程导航学习圈</a>
  */
 @Service
 @Slf4j

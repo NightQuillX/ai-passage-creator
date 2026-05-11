@@ -16,8 +16,6 @@ import java.util.Map;
 /**
  * 图文合成 Agent
  * 将配图插入到正文的相应位置
- *
- * @author AI Passage Creator
  */
 @Component
 @Slf4j

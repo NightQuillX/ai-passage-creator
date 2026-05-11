@@ -13,8 +13,6 @@ import static com.yupi.template.constant.ArticleConstant.SSE_TIMEOUT_MS;
 
 /**
  * SSE Emitter 管理器
- *
- * @author <a href="https://codefather.cn">编程导航学习圈</a>
  */
 @Component
 @Slf4j

@@ -22,8 +22,6 @@ import java.util.Map;
 /**
  * 配图需求分析 Agent
  * 分析文章内容，生成配图需求列表
- *
- * @author AI Passage Creator
  */
 @Component
 @Slf4j

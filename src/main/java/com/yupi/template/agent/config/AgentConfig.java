@@ -9,8 +9,6 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Agent 配置类
  * 提供 Agent 相关的全局配置和共享组件
- *
- * @author AI Passage Creator
  */
 @Configuration
 @Getter

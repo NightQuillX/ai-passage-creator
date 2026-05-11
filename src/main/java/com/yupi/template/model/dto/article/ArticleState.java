@@ -8,8 +8,6 @@ import java.util.List;
 
 /**
  * 文章生成状态（智能体间共享的状态对象）
- *
- * @author <a href="https://codefather.cn">编程导航学习圈</a>
  */
 @Data
 public class ArticleState implements Serializable {

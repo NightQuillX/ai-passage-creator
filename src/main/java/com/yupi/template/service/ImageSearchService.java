@@ -12,8 +12,6 @@ import com.yupi.template.model.enums.ImageMethodEnum;
  * 1. 实现此接口
  * 2. 在 ImageMethodEnum 中添加对应的枚举值
  * 3. 添加对应的配置类（如需要）
- *
- * @author <a href="https://codefather.cn">编程导航学习圈</a>
  */
 public interface ImageSearchService {
 

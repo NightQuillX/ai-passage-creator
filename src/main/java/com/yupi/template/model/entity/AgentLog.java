@@ -15,8 +15,6 @@ import java.time.LocalDateTime;
 
 /**
  * 智能体执行日志实体类
- *
- * @author <a href="https://codefather.cn">编程导航学习圈</a>
  */
 @Data
 @Builder

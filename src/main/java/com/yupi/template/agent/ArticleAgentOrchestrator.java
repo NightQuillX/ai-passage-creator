@@ -26,8 +26,6 @@ import static com.alibaba.cloud.ai.graph.action.AsyncNodeAction.node_async;
 /**
  * 文章智能体编排器
  * 使用 Spring AI Alibaba 的 StateGraph 编排多个 Agent
- *
- * @author AI Passage Creator
  */
 @Service
 @Slf4j

@@ -10,8 +10,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * 异步任务配置
- *
- * @author <a href="https://codefather.cn">编程导航学习圈</a>
  */
 @Configuration
 @EnableAsync
@@ -23,7 +21,7 @@ public class AsyncConfig {
     @Bean(name = "articleExecutor")
     public Executor articleExecutor() {
         ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-        
+
         // 核心线程数
         executor.setCorePoolSize(5);
         

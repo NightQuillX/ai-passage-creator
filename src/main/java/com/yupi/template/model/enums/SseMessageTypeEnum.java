@@ -4,8 +4,6 @@ import lombok.Getter;
 
 /**
  * SSE 消息类型枚举
- *
- * @author <a href="https://codefather.cn">编程导航学习圈</a>
  */
 @Getter
 public enum SseMessageTypeEnum {

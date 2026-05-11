@@ -145,7 +145,7 @@ mysql -uroot -p < sql/create_table.sql
 ### 2. 配置 API Key
 
 ```bash
-cp src/main/resources/application-local.yml.example src/main/resources/application-local.yml
+cp src/main/resources/application-local.yml src/main/resources/application-local.yml
 ```
 
 编辑 `application-local.yml`：

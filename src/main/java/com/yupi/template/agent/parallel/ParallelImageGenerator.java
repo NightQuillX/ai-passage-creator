@@ -22,8 +22,6 @@ import java.util.stream.Collectors;
 /**
  * 并行图片生成器
  * 根据 imageSource 分组，并行执行不同类型的图片生成任务
- *
- * @author AI Passage Creator
  */
 @Component
 @Slf4j

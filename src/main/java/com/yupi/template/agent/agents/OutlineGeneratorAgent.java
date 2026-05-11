@@ -23,8 +23,6 @@ import java.util.function.Consumer;
 /**
  * 大纲生成 Agent
  * 根据标题生成文章大纲（支持流式输出）
- *
- * @author AI Passage Creator
  */
 @Component
 @Slf4j
